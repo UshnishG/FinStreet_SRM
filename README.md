@@ -138,22 +138,16 @@ python main.py
 ### Output Example
 
 ```text
-Fetching Training Data...
---- [Step 1] Training Random Forest Model ---
-Model Trained on 45 rows.
-
-Fetching Test Data...
---- [Step 3] Executing Strategy Simulation ---
-[BUY ] 2026-01-02 @ 185.50
-[SELL] 2026-01-03 @ 190.20 | Cash: 100470.00
-
 ========================================
 FINAL REPORT
 ========================================
+[BUY ] 2026-01-01 @ 177.98
+[SELL] 2026-01-02 @ 179.22 | Cash: 100124.00
+----------------------------------------
 Model Accuracy: 66.67%
-Net Profit:     ₹470.00
-Total Return:   0.47%
-Sharpe Ratio:   2.15
+Net Profit:     ₹124.00
+Total Return:   0.12%
+Sharpe Ratio:   7.10
 ========================================
 
 ```
@@ -172,3 +166,4 @@ Sharpe Ratio:   2.15
 
 
 *This software is for educational purposes only. Do not trade with real money unless you fully understand the risks. The authors are not responsible for any financial losses incurred.*
+
