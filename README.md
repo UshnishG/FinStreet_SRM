@@ -9,7 +9,7 @@ The system is currently configured for **NSE:IRCON-EQ** but can be easily adapte
 The project is organized into modular components for scalability and maintainability:
 
 ```text
-├── .env                       # API Credentials (NOT committed to version control)
+├── .env                       # API Credentials
 ├── requirements.txt           # Python dependencies
 ├── main.py                    # Orchestrator: Runs the full pipeline
 └── src/
@@ -169,5 +169,6 @@ Sharpe Ratio:   2.15
 ---
 
 ## ⚠️ Disclaimer
+
 
 *This software is for educational purposes only. Do not trade with real money unless you fully understand the risks. The authors are not responsible for any financial losses incurred.*
